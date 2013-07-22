@@ -75,6 +75,26 @@
       .statistics h3, .statistics p {
         color: white;
       }
+
+      /* Marketing Copy and Footer */
+      .copy {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        text-align: justify;
+      }
+      .asset {
+        padding: 2.5% 0%;
+      }
+      .footer {
+        color: #cccccc;
+        text-align: center;
+      }
+      .footer p {
+        font-size: 11px;
+      }
+      .footer a {
+        color: #ccccff;
+      }
     </style>
   </head>
   <body>
@@ -169,16 +189,50 @@
         </div>
       </div>
 
-      <div class="row section1">
-        <div class="span12">
-          Marketing Section 1
+      <!-- Beyond this part the marketing copy begins -->
+      <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
+      <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
+      <!-- http://placehold.it -->
+      <div class="row-fluid section1">
+        <div class="span5 offset1 asset">
+          <img class="img-polaroid" src="http://placehold.it/480x300"/>
+        </div>
+        <div class="span5 copy">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
       </div>
-      <div class="row section2">
-        <div class="span12">
-          Marketing Section 2
+
+      <div class="row-fluid section2">
+        <div class="span5 offset1 copy copy-right">
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Sed sed posuere dolor. Duis mollis elit ut nulla laoreet, vitae euismod eros blandit.
+             Curabitur at metus non tortor iaculis pellentesque ac vel dui.
+             Maecenas hendrerit neque metus, sed egestas orci bibendum a. Maecenas mattis libero eu sapien viverra interdum.
+             Nulla facilisi. Nunc dolor tortor, tristique vel arcu sed, sollicitudin suscipit mauris.
+             In dignissim, lacus id placerat rhoncus, purus leo fermentum sapien, malesuada placerat mi eros eu sem.
+             Vivamus quis lorem lobortis arcu imperdiet vehicula. In ultricies odio vel lectus tempor pretium.
+             Praesent tempus aliquam lorem sit amet congue.
+             <br/>
+             Vivamus at faucibus ligula. Vivamus tellus quam, rhoncus non lacus vitae, congue fringilla felis.
+             Nulla posuere euismod magna sed tincidunt. Quisque laoreet nec nisi eget convallis.
+             Donec rutrum, enim a iaculis accumsan, felis dolor euismod enim, a consectetur ipsum lectus eget odio.
+             Praesent tortor massa, rhoncus vel bibendum ut, pellentesque quis risus.
+             Praesent tristique urna quam, ac tristique lectus sagittis et.
+          </p>
+        </div>
+        <div class="span5 asset">
+          <img class="img-polaroid" src="http://placehold.it/480x300"/>
         </div>
       </div>
+
+
+
       <div class="row faq">
         <div class="span12">
           FAQ
